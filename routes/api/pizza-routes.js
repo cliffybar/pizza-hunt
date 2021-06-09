@@ -1,5 +1,4 @@
 const router = require('express').Router();
-
 const {
     getAllPizza,
     getPizzaById,
@@ -20,4 +19,5 @@ router
     .get(getPizzaById)
     .put(updatePizza)
     .delete(deletePizza);
+
 module.exports = router;
